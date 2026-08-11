@@ -139,6 +139,13 @@ PR-1-Fundamental Booster/
 ├── 🖼️ project-screenshot.png
 └── 📘 README.md
 ```
+---
+
+## 🎬 PROJECT DEMONSTRATION
+
+> Watch the complete demonstration of the **Fundamental Booster** Python project.
+
+### ▶️ [Watch Project Demo](https://github.com/hiren-rw/Python-Projects/releases/tag/v1.0.0)
 
 ---
 
