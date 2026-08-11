@@ -38,7 +38,7 @@ Follow the prompts in the terminal to enter your information.
 ## 📁 Project Structure
 
 ``` text
-Fundamental-Booster/
+PR-1-Fundamental-Booster/
 ├── Project - 2.1.py
 ├── project-screenshot.png
 └── README.md
