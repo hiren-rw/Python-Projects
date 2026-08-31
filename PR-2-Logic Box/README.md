@@ -60,13 +60,14 @@ Start → Show Menu → User picks an option
 <br><br>
 
 ### 🎥 Video Explanation
-<div align="center"> 
+<div align="center">
 
-[![Watch Video Walkthrough](https://img.shields.io/badge/▶️%20WATCH%20VIDEO%20WALKTHROUGH-Coming%20Soon-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](#)
+[![Watch Video Walkthrough](https://img.shields.io/badge/▶️%20WATCH%20VIDEO%20WALKTHROUGH-Click%20To%20Play-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://github.com/hiren-rw/Python-Projects/releases/download/v1.0.0/PR-2-Logic.Box-Video.mp4)
 
 </div>
 
 ---
+
 
 ## 🧠 Key Concepts
 
