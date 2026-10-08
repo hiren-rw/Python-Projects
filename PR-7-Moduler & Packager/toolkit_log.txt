@@ -1,0 +1,168 @@
+Available attributes of math:
+__doc__, __loader__, __name__, __package__, __spec__, acos, acosh, asin, asinh, atan, atan2, atanh, cbrt, ceil, comb, copysign, cos, cosh, degrees, dist, e, erf, erfc, exp, exp2, expm1, fabs, factorial, floor, fma, fmod, frexp, fsum, gamma, gcd, hypot, inf, isclose, isfinite, isinf, isnan, isqrt, lcm, ldexp, lgamma, log, log10, log1p, log2, modf, nan, nextafter, perm, pi, pow, prod, radians, remainder, sin, sinh, sqrt, sumprod, tan, tanh, tau, trunc, ulp
+Current Date and Time: 2026-10-08 15:06:24
+Invalid option.
+Invalid input: time data '5555-55-55' does not match format '%Y-%m-%d'
+Difference: 9488 day(s)
+Invalid choice. Try again.
+Difference: 16 hour(s), 15 minute(s)
+Formatted Date: 1
+Formatted Date: 020200
+Time remaining: 5 second(s)
+Time remaining: 4 second(s)
+Time remaining: 3 second(s)
+Time remaining: 2 second(s)
+Time remaining: 1 second(s)
+Countdown completed!
+Elapsed Time: 4.66 seconds
+Invalid input: time data '06-06' does not match format '%H:%M'
+Working Hours: 7 hour(s), 0 minute(s)
+Random Number: 2
+Random List: [27, 17, 78, 1, 67]
+Password generated (password not saved for privacy).
+OTP generated (OTP not saved for privacy).
+Invalid input: Sample size cannot exceed number of items.
+Random Sample: i, 123, am, Hello
+Your guess: 5 | Dice rolled: 1 | Try again!
+Your guess: 6 | Dice rolled: 5 | Try again!
+Your guess: 5 | Dice rolled: 5 | You win!
+File UUID4: 4b193cf1-f071-479f-8395-d4b63dac4f3e
+File UUID4: 8cdaaf14-495a-47a8-9742-9d3c4ddcdfc1
+File UUID4: e09abb8d-a329-4c5e-8f71-be1b28bc5c2a
+Record UUID4: a5331f89-3f54-4eee-9377-615a265e240c
+Record UUID4: 15fe051b-a376-4b15-a74f-e86425d1475d
+Record UUID4: 7bd170ba-d907-482d-9cf7-766a49473f84
+Session UUID4: 9df6f508-3cdc-4726-b3e6-edf1ffc892b4
+Session UUID4: 89749099-7b83-45cd-a1dd-acd1c0be06ad
+File error: [Errno 2] No such file or directory: '3'
+File error: [Errno 2] No such file or directory: 'tollkit_log.txt'
+This filename is reserved for the toolkit log.
+File Content (SAMPLE_OUTPUT.txt):
+Module & Packager — Example Console Results
+=========================================
+These are representative examples, not fixed outputs. Run `python main.py` for menus.
+
+MAIN MENU
+1. Datetime and Time Operations
+2. Mathematical Operations
+3. Random Data Generation
+4. Generate Unique Identifiers (UUID)
+5. File Operations (Custom Module)
+6. Explore Module Attributes (dir())
+7. Exit
+
+Datetime > Current Date and Time
+Current Date and Time: 2025-01-04 10:15:30
+
+Datetime > Date Difference
+First date (YYYY-MM-DD): 2024-12-25
+Second date (YYYY-MM-DD): 2025-01-04
+Difference: 10 day(s)
+
+Datetime > Time Difference (Overnight)
+First time (HH:MM): 22:00
+Second time (HH:MM): 06:00
+Difference: 8 hour(s), 0 minute(s)
+
+Datetime > Date Formatting
+Enter date (YYYY-MM-DD): 2025-01-04
+Enter format: %d/%m/%Y
+Formatted Date: 04/01/2025
+
+Datetime > Stopwatch
+Elapsed Time: 1.25 seconds
+
+Datetime > Countdown Timer
+Countdown seconds: 2
+Time remaining: 2 second(s)
+Time remaining: 1 second(s)
+Countdown completed!
+
+Datetime > Working Hours
+Start time (HH:MM): 09:00
+End time (HH:MM): 17:30
+Working Hours: 8 hour(s), 30 minute(s)
+
+Mathematics > Arithmetic
+First number: 10
+Operator (+, -, *, /): /
+Second number: 2
+Result: 5.00
+
+Mathematics > Factorial
+Enter a non-negative whole number: 5
+Factorial: 120
+
+Mathematics > Compound Interest
+Principal amount: 1000
+Annual interest rate (%): 5
+Time in years: 2
+Final Amount: 1102.50 | Interest Earned: 102.50
+
+Mathematics > Trigonometry
+Angle in degrees: 30
+sin: 0.5000 | cos: 0.8660 | tan: 0.5774
+
+Mathematics > Logarithm
+Positive number: 100
+Logarithm base (e.g., 10): 10
+Logarithm: 2.0000
+
+Mathematics > Geometry
+1. Circle  2. Rectangle  3. Triangle: 2
+Length: 5
+Width: 3
+Area: 15.00 square units
+
+Mathematics > Unit Conversion (Custom Module)
+Kilometers: 10
+Miles: 6.21
+
+Random > Number
+Random Number: 42
+
+Random > List
+Random List: [3, 6, 4]
+
+Random > Password
+Generated Password: (different each time; value is never logged)
+
+Random > OTP
+Generated OTP: (different each time; value is never logged)
+
+Random > Dataset Sampling
+Items separated by commas: red, green, blue
+How many items to sample? 2
+Random Sample: green, red
+
+Random > Dice Guessing Game
+Guess the dice roll (1-6): 4
+Your guess: 4 | Dice rolled: 4 | You win!
+
+UUID > Invoice/Record Identifier
+Record UUID4: f47ac10b-58cc-4372-a567-0e02b2c3d479
+
+File Operations > Create, Write, Read, Append
+File created: example.txt
+Data written to: example.txt
+File Content (example.txt):
+This is a sample file.
+Data appended to: example.txt
+
+Module Exploration (dir())
+Module name to explore: math
+Available attributes of math:
+... (the real program lists all attributes from dir(math))
+
+EXIT
+Thank you for using the Multi-Utility Toolkit!
+
+On every logged operation the project appends to toolkit_log.txt.
+
+Available attributes of uuid:
+Enum, MAX, NAMESPACE_DNS, NAMESPACE_OID, NAMESPACE_URL, NAMESPACE_X500, NIL, RESERVED_FUTURE, RESERVED_MICROSOFT, RESERVED_NCS, RFC_4122, SafeUUID, UUID, _AIX, _GETTERS, _LINUX, _MAC_DELIM, _MAC_OMITS_LEADING_ZEROES, _OS_GETTERS, _RFC_4122_CLEARFLAGS_MASK, _RFC_4122_VERSION_1_FLAGS, _RFC_4122_VERSION_3_FLAGS, _RFC_4122_VERSION_4_FLAGS, _RFC_4122_VERSION_5_FLAGS, _RFC_4122_VERSION_6_FLAGS, _RFC_4122_VERSION_7_FLAGS, _RFC_4122_VERSION_8_FLAGS, _UINT_128_MAX, _UuidCreate, __author__, __builtins__, __cached__, __doc__, __file__, __loader__, __name__, __package__, __spec__, _arp_getnode, _find_mac_near_keyword, _find_mac_under_heading, _generate_time_safe, _get_command_stdout, _has_stable_extractable_node, _ifconfig_getnode, _ip_getnode, _is_universal, _lanscan_getnode, _last_counter_v7, _last_timestamp, _last_timestamp_v6, _last_timestamp_v7, _netstat_getnode, _node, _parse_mac, _random_getnode, _simple_enum, _unix_getnode, _uuid, _uuid7_get_counter_and_tail, _windll_getnode, bytes_, getnode, int_, main, os, sys, time, uuid1, uuid3, uuid4, uuid5, uuid6, uuid7, uuid8
+Thank you for using the Multi-Utility Toolkit!
+Available attributes of datetime:
+MAXYEAR, MINYEAR, UTC, __all__, __builtins__, __cached__, __doc__, __file__, __loader__, __name__, __package__, __spec__, date, datetime, datetime_CAPI, time, timedelta, timezone, tzinfo
+Thank you for using the Multi-Utility Toolkit!
+Current Date and Time: 2026-10-08 15:27:09

@@ -1,0 +1,120 @@
+Module & Packager — Example Console Results
+=========================================
+These are representative examples, not fixed outputs. Run `python main.py` for menus.
+
+MAIN MENU
+1. Datetime and Time Operations
+2. Mathematical Operations
+3. Random Data Generation
+4. Generate Unique Identifiers (UUID)
+5. File Operations (Custom Module)
+6. Explore Module Attributes (dir())
+7. Exit
+
+Datetime > Current Date and Time
+Current Date and Time: 2025-01-04 10:15:30
+
+Datetime > Date Difference
+First date (YYYY-MM-DD): 2024-12-25
+Second date (YYYY-MM-DD): 2025-01-04
+Difference: 10 day(s)
+
+Datetime > Time Difference (Overnight)
+First time (HH:MM): 22:00
+Second time (HH:MM): 06:00
+Difference: 8 hour(s), 0 minute(s)
+
+Datetime > Date Formatting
+Enter date (YYYY-MM-DD): 2025-01-04
+Enter format: %d/%m/%Y
+Formatted Date: 04/01/2025
+
+Datetime > Stopwatch
+Elapsed Time: 1.25 seconds
+
+Datetime > Countdown Timer
+Countdown seconds: 2
+Time remaining: 2 second(s)
+Time remaining: 1 second(s)
+Countdown completed!
+
+Datetime > Working Hours
+Start time (HH:MM): 09:00
+End time (HH:MM): 17:30
+Working Hours: 8 hour(s), 30 minute(s)
+
+Mathematics > Arithmetic
+First number: 10
+Operator (+, -, *, /): /
+Second number: 2
+Result: 5.00
+
+Mathematics > Factorial
+Enter a non-negative whole number: 5
+Factorial: 120
+
+Mathematics > Compound Interest
+Principal amount: 1000
+Annual interest rate (%): 5
+Time in years: 2
+Final Amount: 1102.50 | Interest Earned: 102.50
+
+Mathematics > Trigonometry
+Angle in degrees: 30
+sin: 0.5000 | cos: 0.8660 | tan: 0.5774
+
+Mathematics > Logarithm
+Positive number: 100
+Logarithm base (e.g., 10): 10
+Logarithm: 2.0000
+
+Mathematics > Geometry
+1. Circle  2. Rectangle  3. Triangle: 2
+Length: 5
+Width: 3
+Area: 15.00 square units
+
+Mathematics > Unit Conversion (Custom Module)
+Kilometers: 10
+Miles: 6.21
+
+Random > Number
+Random Number: 42
+
+Random > List
+Random List: [3, 6, 4]
+
+Random > Password
+Generated Password: (different each time; value is never logged)
+
+Random > OTP
+Generated OTP: (different each time; value is never logged)
+
+Random > Dataset Sampling
+Items separated by commas: red, green, blue
+How many items to sample? 2
+Random Sample: green, red
+
+Random > Dice Guessing Game
+Guess the dice roll (1-6): 4
+Your guess: 4 | Dice rolled: 4 | You win!
+
+UUID > Invoice/Record Identifier
+Record UUID4: f47ac10b-58cc-4372-a567-0e02b2c3d479
+
+File Operations > Create, Write, Read, Append
+File created: example.txt
+Data written to: example.txt
+File Content (example.txt):
+This is a sample file.
+Data appended to: example.txt
+
+Module Exploration (dir())
+Module name to explore: math
+Available attributes of math:
+... (the real program lists all attributes from dir(math))
+
+EXIT
+Thank you for using the Multi-Utility Toolkit!
+
+On every logged operation the project appends to toolkit_log.txt.
